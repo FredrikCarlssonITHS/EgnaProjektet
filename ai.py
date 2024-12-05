@@ -452,6 +452,7 @@ class Noggranhet(keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs=None):
         x_data, y_data = self.test_data
 
+        # logga resultat efter varje epoch, räkna ut % rätt per kategori samt genomsnittlig tillförlitlighet på test
         korrekt = 0
         fel = 0
 
