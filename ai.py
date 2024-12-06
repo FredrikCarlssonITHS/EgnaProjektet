@@ -300,7 +300,7 @@ class Modell:
             for i in range(0, len(förutsägelse)):
                 högst_sannolikhet_index = förutsägelse[i].argmax()  
                 högst_sannolikhet = förutsägelse[i][högst_sannolikhet_index]
-                if högst_sannolikhet > 0.7:
+                if högst_sannolikhet > 0.6:
                     resultat = self.kategorier[högst_sannolikhet_index]
                     resultat_träffsäkerhet = f"({högst_sannolikhet * 100:.2f}%)"
                 else:

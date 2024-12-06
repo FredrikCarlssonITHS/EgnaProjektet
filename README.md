@@ -6,3 +6,15 @@ Det finns en zip fil som innehåller orginalbilder, förbereda bilder, sparad mo
 Dokumentation
 
 Se dokument "Dokumentation Egna projektet.docx" för dokumentation
+
+Bibliotek
+
+Använda bibliotek som behöver installeras för att köra applikationen
+MTCNN
+Tensorflow
+Sklearn
+CV2
+Numpy
+Matplotlib
+
+MTCNN installeras med ”pip install mtcnn”
